@@ -1,4 +1,4 @@
-FROM fluent/fluentd-kubernetes-daemonset:v1.14.5-debian-kafka-1
+FROM fluent/fluentd-kubernetes-daemonset:v1.14-debian-kafka-1
 
 USER root
 RUN gem install elasticsearch -v 7.13.3
