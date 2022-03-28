@@ -10,3 +10,4 @@ RUN gem install fluent-plugin-opensearch
 RUN gem install fluent-plugin-concat
 RUN gem install fluent-plugin-stdout-pp
 RUN gem install fluent-plugin-multi-format-parser
+
