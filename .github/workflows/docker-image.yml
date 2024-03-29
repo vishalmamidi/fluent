@@ -13,6 +13,9 @@ env:
   IMAGE_NAME: ${{ github.repository }}
   IMAGE_TAG:  0.${{ github.RUN_NUMBER }}.0  #//${{ github.sha }}
 
+permissions:
+  packages: write
+
 jobs:
 
   build:
